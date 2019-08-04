@@ -1,6 +1,10 @@
 # Gallery
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
+
+##Run json-server
+
+Run `json-server --watch server/imgData.json` for launch the json server.
 
 ## Development server
 

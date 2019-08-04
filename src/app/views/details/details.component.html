@@ -1,0 +1,27 @@
+<div class="details-content">
+	<img src="{{ Image.imageUrl }}" alt="img" />
+	<div class="description-img">
+		<p>
+			<span>{{ Image.title }}</span> - {{ Image.brief }}
+		</p>
+		<div class="feed">
+			<div class="likes">
+				<i class="fas fa-heart"></i>
+				<span>{{ likes }}</span>
+			</div>
+			<div class="comments">
+				<i class="fas fa-bookmark"></i>
+				<span>{{ references }}</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="description-owner">
+	<img src="{{Image.owner.thumbUrl}}" alt="">
+	<div class="owner-data">
+		<h3>{{Image.owner.userName}}</h3>
+		<h4>{{Image.title}}</h4>
+		<p>{{Image.description}}</p>
+	</div>
+</div>

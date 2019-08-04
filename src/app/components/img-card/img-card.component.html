@@ -1,0 +1,18 @@
+<div class="img-content" [ngStyle]="{'background-image': 'url(\''+this.image.imageUrl+'\')'}">
+    <div class="img-data">
+        <div class="description">
+            <h4>{{image.title}}</h4>
+            <span>{{image.brief}}</span>
+        </div>
+        <div class="feed">
+            <div class="likes">
+                <i class="fas fa-heart"></i>    
+                <span>{{likes}}</span>
+            </div>
+            <div class="comments">
+                <i class="fas fa-bookmark"></i>
+                <span>{{references}}</span>
+            </div>
+        </div>
+    </div>
+</div>
